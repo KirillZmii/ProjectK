@@ -1,0 +1,97 @@
+/* Скидання */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  line-height: 1.5;
+}
+
+/* Навігаційна панель */
+.top-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #000000;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  gap: 16px;
+}
+
+.brand {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
+/* Кнопки */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-list a {
+  display: inline-block;
+  padding: 10px 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: lowercase;
+  border-radius: 6px;
+  transition: transform .12s ease, background .12s ease, box-shadow .12s ease;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.nav-list a.active {
+  background: rgba(255,255,255,0.06);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4) inset;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.08);
+  outline: none;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+/* Мобільна адаптація */
+@media (max-width: 640px) {
+  .container { height: auto; padding: 8px; flex-wrap: wrap; }
+  .nav-list {
+    width: 100%;
+    gap: 6px;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-top: 6px;
+  }
+  .nav-list a {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+main {
+  padding: 40px 16px;
+  text-align: center;
+ 
+}
+
+body{
+   background-color: #424242;
+   color: white;
+}
