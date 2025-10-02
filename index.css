@@ -94,4 +94,39 @@ main {
 body{
    background-color: #424242;
    color: white;
+   
+}
+
+
+/* Обгортка-контейнер */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+
+/* Стилі для кожного боксу */
+.box {
+  /* flex: 1; */
+  padding: 20px;
+  background-color: #3f3d3d;
+  border: 2px solid #0c0707;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Додаткові стилі для лівого і правого */
+.left-box {
+  background-color: #585858;
+}
+
+.right-box {
+  background-color: #585858;
 }
