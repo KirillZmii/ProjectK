@@ -20,7 +20,7 @@ body {
   padding: 0 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 64px;
   gap: 16px;
 }
@@ -101,7 +101,7 @@ body{
 /* Обгортка-контейнер */
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 20px;
   height: 100%;
 }
@@ -129,4 +129,11 @@ body{
 
 .right-box {
   background-color: #585858;
+}
+
+.yu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
 }
