@@ -19,7 +19,7 @@
           <li><a href="./bike.html">мотоцикли</a></li>
           <li><a href="./pitbike.html">Пітбайки</a></li>
           <li><a href="./skuters.html">Скутери</a></li>
-          <li><a href="#contacts">Контакти</a></li>
+          <li><a href="./katalog.html">Контакти</a></li>
         </ul>
       </nav>
     </div>
@@ -30,53 +30,76 @@
             <img src="./images/orang.jpg" alt="Товар" width="250px">
             <h3>Kovi PiT 150 </h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/camryshy.jpg" alt="Товар" width="400px">
             <h3>K2R PF 190 </h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/gavno.jpg" alt="Товар" width="250px">
             <h3> YPS Open F125cc</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/6.jpg" alt="Товар" width="250px">
             <h3> WELS RT140e 19×16</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/yra.png" alt="Товар" width="250px">
             <h3>KAYO TT140</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/GEY.jpg" alt="Товар" width="250px">
             <h3>Geon X-Ride Enduro 125</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
          <div class="product">
             <img src="./images/cinak.jpg" alt="Товар" width="250px">
             <h3>XTR 616</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
          <div class="product">
             <img src="./images/popka.jpg" alt="Товар" width="250px">
             <h3> PRB CAYOTE 140M ENDURO</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
     </div>
 
-    
+<div class="order-form" id="orderForm">
+        <div class="form-content">
+            <span class="close-form">&times;</span>
+            <h3>Оформлення замовлення</h3>
+            <div class="product-preview">
+                <img id="productImage" src="" alt="Товар">
+                <h4 id="productName"></h4>
+            </div>
+            <form id="contactForm">
+                <input type="text" id="userName" placeholder="Ваше ім’я" required>
+                <input type="tel" id="userPhone" placeholder="Ваш номер телефону" required>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p>✅ Ми скоро вам передзвонимо!</p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

@@ -19,7 +19,7 @@
           <li><a href="./bike.html">мотоцикли</a></li>
           <li><a href="./pitbike.html">Пітбайки</a></li>
           <li><a href="./skuters.html">Скутери</a></li>
-          <li><a href="#contacts">Контакти</a></li>
+          <li><a href="./katalog.html">Контакти</a></li>
         </ul>
       </nav>
     </div>
@@ -29,51 +29,75 @@
             <img src="./images/1_l.webp" alt="Товар" width="250px">
             <h3>Suzuki address v50</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/suzuki_lets_2.webp" alt="Товар" width="400px">
             <h3>Suzuki lets 2</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/previev.jpg" alt="Товар" width="250px">
             <h3>Suzuki lets 5</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/maksi_scooter_honda_pcx_150_kf30_24284_1-1000x700.jpg" alt="Товар" width="250px">
             <h3>Honda pcx 150 kf30 </h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/super-power-electric-scooter-moped56299119437.webp" alt="Товар" width="250px">
             <h3>Benlg Falcon 1</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
         <div class="product">
             <img src="./images/thumb_sym-symphony-st-200-i-tajvan-preview.jpg" alt="Товар" width="250px">
             <h3>SYM Symphony ST 200</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
          <div class="product">
             <img src="./images/electroscooter_nisa_m6_12-430x301.jpg" alt="Товар" width="250px">
             <h3>Nisa M6</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
          <div class="product">
             <img src="./images/aprilia_sr50_r.jpg" alt="Товар" width="250px">
             <h3>Asprilia sr50 r</h3>
             <p>Короткий опис товару. <br>Дуже корисний і якісний продукт.</p>
-            <button>Купити</button>
+            <button class="buy-btn">Купити</button>
         </div>
     </div>
+    <div class="order-form" id="orderForm">
+        <div class="form-content">
+            <span class="close-form">&times;</span>
+            <h3>Оформлення замовлення</h3>
+            <div class="product-preview">
+                <img id="productImage" src="" alt="Товар">
+                <h4 id="productName"></h4>
+            </div>
+            <form id="contactForm">
+                <input type="text" id="userName" placeholder="Ваше ім’я" required>
+                <input type="tel" id="userPhone" placeholder="Ваш номер телефону" required>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p>✅ Ми скоро вам передзвонимо!</p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

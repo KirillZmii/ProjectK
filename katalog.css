@@ -1,5 +1,5 @@
 .contact {
-  background: #f7f7f7;
+  background:rgba(255,255,255,0.06);
   padding: 80px 10%;
 }
 
@@ -17,12 +17,12 @@
 
 .contact-info h2 {
   font-size: 2.3rem;
-  color: #e63946;
+  color: #ff051a;
   margin-bottom: 20px;
 }
 
 .contact-info p {
-  color: #444;
+  color: #ffffff;
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -33,7 +33,7 @@
 }
 
 .contact-details a {
-  color: #e63946;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -55,14 +55,14 @@
 
 .contact-form {
   flex: 1 1 400px;
-  background: #fff;
+  background: #626262;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .contact-form h3 {
-  color: #e63946;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -83,11 +83,11 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #e63946;
+  border-color: #050202;
 }
 
 .contact-form button {
-  background: #e63946;
+  background: #000000;
   color: #fff;
   border: none;
   padding: 14px;

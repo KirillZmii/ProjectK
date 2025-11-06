@@ -57,3 +57,143 @@
  justify-content: center;
  margin: 0 200px;
 }
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  padding: 60px 10%;
+  justify-items: center;
+}
+
+.product {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.product p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.product button {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.product button:hover {
+  background: #000000;
+  transform: scale(1.05);
+}
+
+/* ORDER FORM */
+.order-form {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.form-content {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.close-form {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #777;
+}
+
+.product-preview {
+  margin-bottom: 20px;
+}
+
+.product-preview img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.product-preview h4 {
+  margin-top: 10px;
+  color: #000000;
+}
+
+.form-content input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.form-content button {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.form-content button:hover {
+  background: #000000;
+  transform: scale(1.05);
+}
+
+/* POPUP */
+.popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  color: #28a745;
+  font-weight: bold;
+}
